@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crop Yield Prediction</title>
+</head>
+<body>
+    <h1>Predict Crop Yield</h1>
+    <form method="POST" action="/predict">
+        <label for="temperature">Temperature:</label><br>
+        <input type="number" id="temperature" name="temperature"><br><br>
+        <label for="rainfall">Rainfall:</label><br>
+        <input type="number" id="rainfall" name="rainfall"><br><br>
+        <label for="crop">Crop:</label><br>
+        <select id="crop" name="crop">
+            <option value="Wheat">Wheat</option>
+            <option value="Rice">Rice</option>
+            <option value="Maize">Maize</option>
+            <option value="Potatoes">Potatoes</option>
+            <option value="Sorghum">Sorghum</option>
+            <option value="Soybeans">Soybeans</option>
+            <option value="Cassava">Cassava</option>
+            <option value="Spotatoes">Spotatoes</option>
+            <option value="Plantains">Plantains</option>
+            <option value="Yams">Yams</option>
+            </select><br><br>
+        <button type="submit">Predict Yield</button>
+    </form>
+    {% if prediction %}
+        <p>Predicted yield: {{ prediction }}</p>
+    {% endif %}
+</body>
+</html>
