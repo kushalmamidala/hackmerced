@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crop Yield Production</title>
+    <link rel="stylesheet" href="getstarted.css">
+
+</head>
+<body>
+      <div class="header">
+        <a href="About.html">
+        <button href="about-us" class="about-us">About Us</button>
+        </a>
+  
+        <a href="website hacks.html">
+            <button href="home-page" class="home-page">Home Page</button>
+          </a>
+          
+        <a href="Getstarted.html">
+        <button href="get-started" class="get-started">Get Started</button>
+        </a>
+      </div>
+
+  <section>
+    <h1>Get Started</h1>
+  </section>
+  <section>
+      <div class="cards">
+        <div class="text-card">
+          <a href="https://github.com/kushalmamidala/hackmerced.git/" target="_blank">GitHub</a>
+          <p>To access our program on determining crop yield production click on link above!</p>
+        </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script type="text/javascript">
+    window.addEventListener('scroll', reveal);
+
+    function reveal (){
+      var reveals = document.querySelectorAll('.reveal');
+
+      for(var i = 0; i < reveals.length; i++){
+
+        var windowheight = window.innerHeight;
+        var revealtop = reveals[i].getBoundingClient().top;
+        var revealpoint = 150;
+
+        if(revealtop < windowheight - revealpoint){
+          reveals[i].classList.add('active');
+        }
+        else{
+          reveals[i].classList.add('active');
+
+        }
+
+      }
+
+
+    }
+    </script>
+
+
+</body>
+</html>

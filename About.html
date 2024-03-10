@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crop Yield Production</title>
+    <link rel="stylesheet" href="about.css">
+
+</head>
+<body>
+      <div class="header">
+        <a href="About.html">
+        <button href="about-us" class="about-us">About Us</button>
+        </a>
+  
+        <a href="website hacks.html">
+            <button href="home-page" class="home-page">Home Page</button>
+          </a>
+          
+        <a href="Getstarted.html">
+        <button href="get-started" class="get-started">Get Started</button>
+        </a>
+      </div>
+
+  <section>
+    <h1>About Us</h1>
+  </section>
+  <section>
+    <div class="container">
+      <h2>Crop Yield Predictions</h2>
+      <div class="cards">
+        <div class="text-card">
+          <h3>Who Are We</h3>
+          <p>As computer science majors striving to make a meaningful impact on the world, we are passionate innovators harnessing the power of technology to address pressing global challenges. With a deep understanding of computational principles and cutting-edge technologies, we are equipped to devise creative solutions that tackle issues ranging from environmental sustainability to healthcare accessibility and beyond. Through collaborative efforts and interdisciplinary collaboration, we leverage our expertise to develop transformative tools, systems, and algorithms that have the potential to revolutionize industries and improve lives on a global scale. With a commitment to ethical and inclusive practices, we strive to create solutions that are not only effective but also equitable, ensuring that the benefits of technology reach all corners of society. As CS majors, we embrace the responsibility to use our skills and knowledge to drive positive change and contribute to a better future for all.</p>
+        </div>
+        <div class="text-card">
+          <h3>Our Inspiration</h3>
+          <p>The inspiration is to provide farmers with precise yield forecasts so they can make educated decisions and support global food production and sustainability initiatives. We do this by using machine learning to analyze historical crop yield data along with climatic conditions, pesticide usage, and geographic regions. </p>
+        </div>
+        <div class="text-card">
+          <h3>What Does Our Code Do?</h3>
+          <p>The provided code conducts regression analysis on agricultural data to predict crop yields using a Decision Tree Regressor model. It begins by loading the dataset and preprocessing it, including one-hot encoding categorical variables and splitting the data into training and testing sets. The features are then scaled, and a Decision Tree Regressor model is trained on the scaled training data. After making predictions on the test set, the model's performance is evaluated using mean squared error and R-squared score metrics. Additionally, the code performs cross-validation to assess the model's generalization performance. Finally, it visualizes the actual versus predicted crop yields and provides functionality to predict crop yields based on user inputs using the trained model. </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script type="text/javascript">
+    window.addEventListener('scroll', reveal);
+
+    function reveal (){
+      var reveals = document.querySelectorAll('.reveal');
+
+      for(var i = 0; i < reveals.length; i++){
+
+        var windowheight = window.innerHeight;
+        var revealtop = reveals[i].getBoundingClient().top;
+        var revealpoint = 150;
+
+        if(revealtop < windowheight - revealpoint){
+          reveals[i].classList.add('active');
+        }
+        else{
+          reveals[i].classList.add('active');
+
+        }
+
+      }
+
+
+    }
+    </script>
+
+
+</body>
+</html>

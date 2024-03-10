@@ -1,0 +1,146 @@
+.header {
+  background-color: gray;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1000;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  }
+ 
+  .about-us {
+  background-color:rgba(68, 59, 59, 0.307);
+color: white;
+border: none;
+height: 30px;
+width: 95px;
+border-radius: 2px;
+cursor: pointer;
+margin-right: 8px;
+transition: opacity 0.15s;
+transition-property: transform;    
+transition-duration: 0.3s;     
+transition-timing-function: ease;         
+transition-delay: 0s;
+border-radius: 10px;
+border: none
+  }
+
+  .about-us:hover {
+opacity: 0.8;
+transform: translateY(-2.5px);
+  }
+
+  .about-us:active {
+opacity: 0.5;
+  }
+
+
+  
+  .home-page {
+  background-color:rgb(68, 59, 59, 0.307);
+color: white;
+border: none;
+height: 30px;
+width: 95px;
+border-radius: 2px;
+cursor: pointer;
+margin-right: 8px;
+transition: opacity 0.15s;
+transition-property: transform;    
+transition-duration: 0.3s;     
+transition-timing-function: ease;         
+transition-delay: 0s;
+border-radius: 10px;
+border: none
+  }
+
+  .home-page:hover {
+opacity: 0.8;
+transform: translateY(-2.5px);
+  }
+
+  .home-page:active {
+opacity: 0.5;
+  }
+
+  .get-started {
+  background-color:rgb(68, 59, 59, 0.307);
+color: white;
+border: none;
+height: 30px;
+width: 95px;
+border-radius: 2px;
+cursor: pointer;
+margin-right: 8px;
+transition: opacity 0.15s;
+transition-property: transform;    
+transition-duration: 0.3s;     
+transition-timing-function: ease;         
+transition-delay: 0s;
+border-radius: 10px;
+border: none
+  }
+
+  .get-started:hover {
+opacity: 0.8;
+transform: translateY(-2.5px);
+  }
+
+  .get-started:active {
+opacity: 0.5;
+  }
+
+ .title {
+  width: 100%;
+  height: 650px;
+  color: white ;
+  margin-left: none;
+  margin-right: none;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1000;
+  font-size: 60px;
+  font-family: 'Times New Roman', Times, serif;
+  min-height: 50vh;
+  }
+
+ .video-bg {
+  width: 100%;
+  border-right: none;
+  border-left: none; 
+  position: absolute;
+  filter: sepia(50%) saturate(80%) brightness(60%) hue-rotate(10deg);
+  z-index: -1;
+  top: 0;
+  left: 0;
+  margin-bottom: 100px;
+  min-width: 100%;
+  min-height: 100%;
+ }
+
+ .text {
+  font-size: 50px;
+  width: 100%;
+  height: 70px;
+ text-align: center;
+ position:absolute;
+ bottom: -90px;
+ }
+
+ .paragraph {
+  width: 65%;
+  height: 300px;
+  text-align: center;
+ position:absolute;
+ bottom: -460px;
+ margin-left: 250px;
+ }
